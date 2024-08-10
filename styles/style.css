@@ -1,0 +1,27 @@
+/* 
+    Now Lets talk about selectors
+
+    tag selectors
+    class selectors
+    id selectors
+
+*/
+
+h1 {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.para {
+  background-color: green;
+  color: white;
+  font-size: 40px;
+}
+
+.beeStyle:hover {
+  background-color: red;
+}
+
+#customStyle:hover {
+  background-color: darkcyan;
+}
