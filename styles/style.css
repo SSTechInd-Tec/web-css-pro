@@ -5,23 +5,37 @@
     class selectors
     id selectors
 
+    color
+      color name
+      rgb color code
+        red
+        green
+        blue
+      hex color code
+        
+    Size 
+
+    0-255
+
+    px
+    %
+    em
+    rem
+
 */
 
-h1 {
-  background-color: cornflowerblue;
-  color: white;
+body {
+  font-size: 50px;
 }
 
-.para {
-  background-color: green;
-  color: white;
-  font-size: 40px;
+p {
+  font-size: 2rem;
 }
 
-.beeStyle:hover {
-  background-color: red;
-}
-
-#customStyle:hover {
-  background-color: darkcyan;
+#shape {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid cyan;
 }
