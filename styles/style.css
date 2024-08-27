@@ -1,41 +1,53 @@
-/* 
-    Now Lets talk about selectors
-
-    tag selectors
-    class selectors
-    id selectors
-
-    color
-      color name
-      rgb color code
-        red
-        green
-        blue
-      hex color code
-        
-    Size 
-
-    0-255
-
-    px
-    %
-    em
-    rem
-
-*/
-
 body {
-  font-size: 50px;
+  margin: 0;
 }
 
-p {
-  font-size: 2rem;
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
-#shape {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid cyan;
+header {
+  background-color: aqua;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+nav {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: cadetblue;
+  width: 58%;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 500px;
+  float: left;
+  margin: 0 1%;
+}
+
+aside {
+  background-color: gold;
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  float: left;
+}
+
+footer {
+  background-color: rgb(155, 11, 11);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+  float: left;
+  height: 200px;
 }
