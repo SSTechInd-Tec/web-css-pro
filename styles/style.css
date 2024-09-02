@@ -77,4 +77,41 @@ nav ul li:hover a {
 
 nav ul {
   padding: 0;
+  float: left;
+}
+
+nav span {
+  float: left;
+  margin: 20px;
+}
+
+.right-menu {
+  float: right;
+}
+
+/* tables styles */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr td,
+table tr th {
+  border: white solid 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+table tr th {
+  background-color: white;
+}
+
+table tr {
+  transition: all 0.5s;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: red;
+  color: white;
 }
